@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Sparse-topology pinning results.}
+\label{tab:r4_sparse_pinning}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{lccccc}
+\toprule
+Configuration & $N_u$ & $J_\varrho$ & $J_u$ & $\lambda_{\max}^{\rm act}$ & Theorem conditions \\
+\midrule
+\multicolumn{6}{l}{\textit{(a) Degree-first pin-count sensitivity, gain $k=26$}}\\
+$p=2$ & 388.97 [388.46, 389.48] & 0.200189 [0.200060, 0.200317] & 12.2197 [12.2109, 12.2286] & 4.3042 & No \\
+$p=4$ & 368.59 [368.29, 368.89] & 0.187845 [0.187730, 0.187961] & 15.6524 [15.6424, 15.6625] & 2.4888 & No \\
+$p=6$ & 350.92 [350.75, 351.09] & 0.156459 [0.156377, 0.156541] & 17.0207 [17.0047, 17.0367] & 0.1786 & No \\
+\midrule
+\multicolumn{6}{l}{\textit{(b) Theorem-certified location comparison, $p=6$, gain $k=30$}}\\
+Degree-first & 349.13 [348.97, 349.29] & 0.154559 [0.154480, 0.154637] & 20.7604 [20.7414, 20.7794] & -0.0108 & Yes \\
+Leaf-first & 343.43 [343.27, 343.59] & 0.135092 [0.135014, 0.135169] & 20.2801 [20.2579, 20.3024] & -0.0411 & Yes \\
+\bottomrule
+\end{tabular}
+\end{table*}
