@@ -1,0 +1,10 @@
+Finite-interval comparison; 0 <= tau <= L.
+a = 3
+b = 1
+L = 0.25
+delta_H = 0.1
+y0 = 1
+r = 1.532967261681845
+root residual = 0
+CSV columns: tau,Bsharp,Bslow,Bconstant,Dsharp,Dslow,Dconstant
+All bounds share the same parameters. No experimental data are used in this figure.
